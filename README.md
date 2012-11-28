@@ -1,4 +1,4 @@
-Autoload 0.1.0
+Autoload 1.0.0
 ==============
 
 A basic autoloader module for PHP.
