@@ -1,0 +1,20 @@
+{
+    "name"          : "mertenvg/autoload",
+    "description"   : "A basic autoloader module for PHP",
+    "license"       : "MIT",
+    "keywords"      : [
+        "Autload",
+        "Autoloader",
+        "PHP Autoload",
+        "PHP Autloader",
+        "PHP"
+    ],
+    "require"       : {
+        "php": ">=5.3.3"
+    },
+    "autoload"      : {
+        "psr-0"         : {"Autoload": "src/"},
+        "classmap"      : ["./"]
+    }
+}
+
